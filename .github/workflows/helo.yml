@@ -1,0 +1,10 @@
+name: helo
+on: push
+
+jobs:
+  helo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: print helo word
+      run: echo "Welcome into Git"
