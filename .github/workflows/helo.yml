@@ -1,10 +1,10 @@
-name: helo
+name: workflow-name-helo
 on: push
 
 jobs:
-  helo:
+  job-name-helo:
     runs-on: ubuntu-latest
 
     steps:
-    - name: print helo word
+    - name: step-name print helo word
       run: echo "Welcome into Git"
